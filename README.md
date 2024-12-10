@@ -1,17 +1,25 @@
-# Welcome to your Expo app 👋
+# TODO - an app for tracking your tasks
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple, intuitive, and cross-platform to-do list application built with React Native. Manage your tasks efficiently on both iOS and Android devices.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+1. [Installation](#installation)
+2. [Features](#features)
+3. [Contributing](#contributing)
+4. [License](#license)
+
+## Installation
+
+- Install dependencies
 
    ```bash
+   git clone https://github.com/yordan-vladov/todo-app.git
+   cd todo-app
    npm install
    ```
 
-2. Start the app
-
+- To start the app, type:
    ```bash
     npx expo start
    ```
@@ -25,7 +33,7 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+### Get a fresh project
 
 When you're ready, run:
 
@@ -33,18 +41,26 @@ When you're ready, run:
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Features
 
-## Learn more
+- Add, edit, and delete tasks.
+- Mark tasks as complete or incomplete.
 
-To learn more about developing your project with Expo, look at the following resources:
+![](/design/mobile-design-light.jpg)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Allows the user to choose between a light mode and a dark mode
 
-## Join the community
+![](design/mobile-design-dark.jpg)
 
-Join our community of developers creating universal apps.
+## Contributing
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Contributions are welcome! Follow these steps:
+    1. Fork the repository.
+    2. Create a new branch: git checkout -b feature/your-feature-name.
+    3. Commit your changes: git commit -m 'Add your feature'.
+    4. Push the branch: git push origin feature/your-feature-name.
+    5. Open a Pull Request.
+
+## Licence
+
+- This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
