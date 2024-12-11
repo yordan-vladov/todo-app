@@ -1,4 +1,4 @@
-# TODO - an app for tracking your tasks
+e# TODO - an app for tracking your tasks
 
 A simple, intuitive, and cross-platform to-do list application built with React Native. Manage your tasks efficiently on both iOS and Android devices.
 
@@ -61,6 +61,6 @@ npm run reset-project
     4. Push the branch: git push origin feature/your-feature-name.
     5. Open a Pull Request.
 
-## Licence
+## License
 
 - This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
