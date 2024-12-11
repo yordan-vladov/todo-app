@@ -1,4 +1,4 @@
-e# TODO - an app for tracking your tasks
+# TODO - an app for tracking your tasks
 
 A simple, intuitive, and cross-platform to-do list application built with React Native. Manage your tasks efficiently on both iOS and Android devices.
 
